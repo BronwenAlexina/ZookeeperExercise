@@ -123,7 +123,7 @@ It looks like we will soon have more rabbits!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
-print("Please enter the number of the habitat you would like to visit: ")
+print("Please enter the number of the habitat you would like to visit from 0 to 5 : ")
 choice = (input())
 
 while True:
@@ -131,8 +131,8 @@ while True:
    print(animals[int(choice)])
 
     
-   choice = (input("Please enter a new number: "))
+   choice = (input("Please enter a new number from 0 to 5: "))
    
    if choice == "exit":
-      print ("See you later!")
+      print ("Ok, byeeee!!! See you later!")
       exit()
